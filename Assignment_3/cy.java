@@ -1,5 +1,6 @@
 interface shape{
 double area();
+double vol();
 final static double pi = 3.14;
 }
 
@@ -25,6 +26,6 @@ public class cy{
 		s = new Cylinder(5,5);
 		
 		System.out.println("Area of Cylinder:" + s.area());
-		System.out.println("Area of Cylinder:" + s.vol());
+		System.out.println("Volume of Cylinder:" + s.vol());
 	}
 }
